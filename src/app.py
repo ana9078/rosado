@@ -43,7 +43,7 @@ class Handler(FileSystemEventHandler):
 
 def copy_file(src_path):
     # Ruta del directorio de destino dentro del proyecto
-    dst_path = os.path.join('C:/Users/Utilities99/Documents/territorioSeguro/read_imagit', 'static', 'images')  # Actualiza esta ruta a tu carpeta del proyecto
+    dst_path = os.path.join('C:/Users/Utilities99/Documents/territorioSeguro/ultimo2', 'static', 'images')  # Actualiza esta ruta a tu carpeta del proyecto
     if not os.path.exists(dst_path):
         os.makedirs(dst_path)
     shutil.copy(src_path, dst_path)
